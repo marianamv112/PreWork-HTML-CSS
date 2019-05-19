@@ -6,6 +6,7 @@
   <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>npm</title>
 </head>
 
@@ -24,29 +25,37 @@
     </ul>
   </nav>
 
-  <header class='header'>
-    <img src='images/npm-logo.png'>
-    <input type='text' placeholder="Find packages...">
-    <button> <i class='material-icons'>search</i></button>
-    <ul>
-      <li><a href="#">sign up</a> or <a href="#">login</a></li>
-      <li><img src='images/bear-logo.png'></li>
-    </ul>
-    <h1>Build amazing things</h1>
-    <p> npm is the package manager for JavaScript and the world's largest software registry. Discover packages of
-      rusable code - and assemble them in powerful new ways. </p>
-    <button> Sign up for npm </button>
+  <header>
+    <div class="searchBarDiv">
+      <img src='images/npm-logo.png' id="npmLogo">
+      <div class="barAndButton">
+        <input class="searchBar" type='text' placeholder="Find packages...">
+        <button class="searchButton"> <i class='material-icons'>search</i></button>
+      </div>
+      <ul class="rightElements">
+          <li><a href="#">sign up</a> or <a href="#">login</a></li>
+          <li><img src='images/bear-logo.png' id="bearLogo"></li>
+      </ul>
+    </div>
+    <div class="amazingCityDiv">
+      <div class="amazingTextFields">
+      <h1>Build amazing things</h1>
+      <p> npm is the package manager for JavaScript and the world's largest software registry.</p>
+      <p>Discover packages of reusable code - and assemble them in powerful new ways.</p>
+      </div>
+    <button class="signUpnpmButton"> Sign up for npm </button>
+    </div>
   </header>
 
   <section class='firstSection'>
-    <object type="image/svg+xml" data="images/collaboration.svg"></object>
+    <object width="100%" height="450px" type="image/svg+xml" data="images/collaboration.svg" id="collaborationImg"></object>
     <h1>npm Orgs is powerful collaboration - for free</h1>
     <ul class='npmOrgs'>
       <li>Encourage code discovery and re-use within teams</li>
       <li>Publish and control access to your own namespace</li>
       <li>Manage public and private code with the same workflow</li>
     <ul>
-    <button>Sign up for Orgs</button>
+    <button class="signUpOrgsButton">Sign up for Orgs</button>
     <p>or <a href="#">Learn more about Orgs</a></p>
   </section>
 
