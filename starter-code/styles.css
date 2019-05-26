@@ -43,7 +43,7 @@ nav a {
 }
 
 header {
-  background-color: rgb(32, 101, 136);
+  background-color: rgb(36, 89, 120); /* rgb(32, 101, 136);*/
   color: rgba(255,255,255,0.8);
 }
 
@@ -60,7 +60,6 @@ header {
     background-color: rgb(31, 82, 111);
     border-width: 0.5px;
 }
-
 
 input {
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
@@ -125,14 +124,18 @@ img {
   margin: 0 auto;
 }
 
-.amazingTextFields {
-  width: 100%;
-  padding-bottom: 100px;
-  padding-left:200px;
-  padding-top: 100px;
+.amazingCityContainer {
+  display:inline-table;
+  width: 450px;
+  padding-top: 80px;
+  padding-left: 100px;
 }
 
-.signUppmButton {
+.amazingCityH1, .amazingcityP2 {
+  padding-bottom: 30px;
+}
+
+.signUpNpmButton {
   background-color: rgb(240, 146, 51);
   border-radius: 25px;
   height: 30px;
@@ -142,10 +145,12 @@ img {
   font-size: 100%;
 }
 
-.firstSection {
+section {
+  color: rgba(255,255,255,0.8);
   background-color: rgb(39, 53, 71);
   width: 100%;
-  height: 450px;
+  height: auto;
+  display: inline-flex;
 }
 .signUpOrgsButton {
   background-color: rgb(203, 56, 55);
@@ -157,9 +162,93 @@ img {
   font-size: 100%;
 }
 
-.collaborationImg {
-  align-content: right;
+.colaborationImg {
+  padding-left: 100px;
+  padding-bottom: 200px;
+  margin:0 auto;
 }
+
+.colaborationText {
+  display: inline-flex;
+  text-align: right;
+  padding-top: 50px;
+  margin:0 auto;
+}
+
+.colaborationText ul {
+  text-align: left;
+}
+
+
+.colaborationText li {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.colaborationText h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 300px;
+  position: absolute;
+ }
+
+.npmOrgs{ 
+  padding-top: 110px;
+  vertical-align: middle;
+}
+
+.npmOrgs2 {
+  list-style: none;
+  text-align: left;
+}
+
+.secondSection {
+  width: 100%;
+  height: 450px;
+  background: url(images/forklift.svg);
+  margin: 0 auto;
+}
+
+.installNpmButton {
+  background-color: rgb(39, 53, 71);
+  border-radius: 25px;
+  height: 30px;
+  width: 150px;
+  border: 0px;
+  color: rgba(255,255,255,0.8);
+  font-size: 100%;
+}
+
+.secondSectionContainer {
+  display: inline-table;
+  width: 450px;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+.thirdSection {
+  display: block;
+  background-color: rgba(255,255,255,0.8);
+  color: rgb(39, 53, 71);
+}
+
+.thirdSectionText {
+  text-align: center;
+}
+
+.threeSubDivs {
+  display: inline-block;
+  width: 100%;
+  text-align:center;
+}
+
+.findDiv, .discoverDiv, .buildDiv {
+  display: inherit;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 
 
